@@ -25,7 +25,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r esm .",
+    "dev": "nodemon -r esm index.js",
     "serve": "node -r esm ."
   },
   "keywords": [],
