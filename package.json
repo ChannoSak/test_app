@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "apollo-server-express": "^3.9.0",
+    "bcryptjs": "^2.4.3",
+    "consola": "^2.15.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "graphql-middleware": "^6.1.31",
+    "graphql-subscriptions": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.4.4",
+    "mongoose-paginate-v2": "^1.7.0",
+    "nodemon": "^2.0.19",
+    "subscriptions-transport-ws": "^0.11.0",
+    "yup": "^0.32.11"
+  },
+  "name": "room_meeting_app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.14.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r esm index.js",
+    "serve": "node -r esm ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
